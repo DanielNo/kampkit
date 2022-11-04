@@ -6,3 +6,4 @@ expect abstract class ViewModel() {
     val viewModelScope: CoroutineScope
     protected open fun onCleared()
 }
+

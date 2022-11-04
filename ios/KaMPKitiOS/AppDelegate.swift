@@ -22,7 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         startKoin()
 
-        let viewController = UIHostingController(rootView: BreedListScreen())
+//         let viewController = UIHostingController(rootView: BreedListScreen())
+let viewController = UIHostingController(rootView: Testview())
 
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.rootViewController = viewController
